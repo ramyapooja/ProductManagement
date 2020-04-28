@@ -1,0 +1,12 @@
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEntity.deps.json
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEntity.dll
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.csprojAssemblyReference.cache
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.AssemblyInfoInputs.cache
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.AssemblyInfo.cs
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEntity.runtimeconfig.json
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEntity.runtimeconfig.dev.json
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.genruntimeconfig.cache
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEntity.pdb
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.dll
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.pdb
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.csproj.CoreCompileInputs.cache
