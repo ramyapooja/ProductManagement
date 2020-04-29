@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using UserManagement.Helper;
+using UserManagement.Repositories;
 using ProductManagementDBEntity.Models;
 using ProductManagementDBEntity.Repositories;
 using Microsoft.OpenApi.Models;

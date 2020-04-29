@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UserManagement.Helper
+namespace UserManagement.Repositories
 {
     public interface IUserManagementHelper
     {

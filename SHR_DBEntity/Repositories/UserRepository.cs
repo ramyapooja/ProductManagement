@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UserManagement.Helper
+namespace UserManagement.Repositories
 {
     public class UserRepository : IUserRepository
 
@@ -24,7 +24,7 @@ namespace UserManagement.Helper
         {
             try
             {
-                return await _productDBContext.UserDetails.SingleOrDefaultAsync(e => e.Username == userName && e.Password == password);
+                return await _productDBContext.UserDetails.SingleOrDefaultAsync(e => e.UserName == userName && e.UserPassword == password);
             }
             catch (Exception e)
             {
