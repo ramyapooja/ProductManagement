@@ -2,17 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ProductManagementDBEntity.Repositories
 {
     public interface IUserRepository
     {
-        UserDetails UserLogin(string uname, string pwd);
+        Task<UserDetails> UserLogin(string userName, string password);
 
-        void UserRegister(UserDetails userobj);
+        Task<bool> UserRegister(UserDetails userDetails);
 
-        void UpdateProfile(UserDetails bobj);
+        Task<bool> UpdateProfile(UserDetails userDetails);
 
-        UserDetails ViewProfile(string bid);
+        Task<UserDetails> ViewProfile(string userId);
     }
 }
