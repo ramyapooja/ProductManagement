@@ -1,5 +1,6 @@
 ﻿using ProductManagementDBEntity.Models;
 using ProductManagementDBEntity.Repositories;
+using SHR_Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace UserManagement.Repositories
 {
     public interface IUserManagementHelper
     {
-        Task<UserDetails> UserLogin(string userName, string password);
+        Task<UserDetails> UserLogin(UserLogin user);
 
         Task<bool> UserRegister(UserDetails userDetails);
 
@@ -42,12 +43,12 @@ namespace UserManagement.Repositories
             }
         }
 
-        public async Task<UserDetails> UserLogin(string userName, string password)
+        public async Task<UserDetails> UserLogin(UserLogin user)
         {
 
             try
             {
-                UserDetails userDetails = await _iUserRepository.UserLogin(userName, password);
+                UserDetails userDetails = await _iUserRepository.UserLogin(user);
                 if (userDetails != null)
                 {
                     return userDetails;
@@ -61,6 +62,7 @@ namespace UserManagement.Repositories
             }
             //return await _iUserRepository.UserLogin(userName, password);
         }
+
 
         public async Task<bool> UpdateProfile(UserDetails userDetails)
         {

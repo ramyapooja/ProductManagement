@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProductManagementDBEntity.Models;
 using ProductManagementDBEntity.Repositories;
+using SHR_Model;
 using UserManagement.Repositories;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -41,15 +42,12 @@ namespace UserManagement
         [HttpPost]
         [Route("UserLogin/{userName}/{password}")]
 
-        public async Task<IActionResult> UserLogin(string userName, string password)
+        public async Task<IActionResult> UserLogin(UserLogin user)
         {
             try
             {
-                UserDetails user = await _iUserManagementHelper.UserLogin(userName, password);
-                if (user == null)
-                    return Ok("Invalid User");
-                else
-                    return Ok(user);
+                return Ok(await _iUserManagementHelper.UserLogin(user));
+
             }
 
             catch (Exception ex)

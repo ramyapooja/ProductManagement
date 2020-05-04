@@ -1,4 +1,5 @@
 ﻿using ProductManagementDBEntity.Models;
+using SHR_Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,12 +9,12 @@ namespace ProductManagementDBEntity.Repositories
 {
     public interface IUserRepository
     {
-        Task<UserDetails> UserLogin(string userName, string password);
+        Task<UserDetails> UserLogin(UserLogin user);
 
         Task<bool> UserRegister(UserDetails userDetails);
 
         Task<bool> UpdateProfile(UserDetails userDetails);
 
-        Task<UserDetails> ViewProfile(string userId);
+        Task<UserDetails> ViewProfile(int userId);
     }
 }

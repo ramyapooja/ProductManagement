@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductManagementDBEntity.Models;
 using ProductManagementDBEntity.Repositories;
+using SHR_Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,13 +21,17 @@ namespace UserManagement.Repositories
         }
 
 
-        public async Task<UserDetails> UserLogin(string userName, string password)
+        public async Task<UserDetails> UserLogin(UserLogin user)
         {
             try
             {
-                return await _productDBContext.UserDetails.SingleOrDefaultAsync(e => e.UserName == userName && e.UserPassword == password);
+                UserDetails userDetails = await _productDBContext.UserDetails.SingleOrDefaultAsync(e => e.UserName == user.UserName && e.UserPassword == user.UserPassword);
+                if (userDetails == null)
+                    return null;
+                else
+                    return userDetails;
             }
-            catch (Exception e)
+            catch
             {
                 throw;
             }
@@ -68,7 +73,7 @@ namespace UserManagement.Repositories
             }
         }
 
-        public async Task<UserDetails> ViewProfile(string userId)
+        public async Task<UserDetails> ViewProfile(int userId)
         {
             try
             {

@@ -10,3 +10,6 @@ C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\ProductManagementDBEnt
 C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.dll
 C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.pdb
 C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.csproj.CoreCompileInputs.cache
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\SHR_Model.dll
+C:\ProductManagement\SHR_DBEntity\bin\Debug\netcoreapp3.1\SHR_Model.pdb
+C:\ProductManagement\SHR_DBEntity\obj\Debug\netcoreapp3.1\ProductManagementDBEntity.csproj.CopyComplete

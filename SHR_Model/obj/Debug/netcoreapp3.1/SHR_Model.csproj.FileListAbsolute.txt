@@ -1,0 +1,9 @@
+C:\ProductManagement\SHR_Model\bin\Debug\netcoreapp3.1\SHR_Model.deps.json
+C:\ProductManagement\SHR_Model\bin\Debug\netcoreapp3.1\SHR_Model.dll
+C:\ProductManagement\SHR_Model\bin\Debug\netcoreapp3.1\SHR_Model.pdb
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.csprojAssemblyReference.cache
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.csproj.CoreCompileInputs.cache
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.AssemblyInfoInputs.cache
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.AssemblyInfo.cs
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.dll
+C:\ProductManagement\SHR_Model\obj\Debug\netcoreapp3.1\SHR_Model.pdb
